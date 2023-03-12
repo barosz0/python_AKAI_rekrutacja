@@ -1,14 +1,18 @@
 [
-  {
-    "content": "pokroić mięso",
-    "done": false
-  },
-  {
-    "content": "przebrać spodnie",
-    "done": false
-  },
-  {
-    "content": "nakarmić psa",
-    "done": true
-  }
+    {
+        "content": "pokroi\u0107 mi\u0119so",
+        "done": false
+    },
+    {
+        "content": "przebra\u0107 spodnie",
+        "done": true
+    },
+    {
+        "content": "Pogra\u0107",
+        "done": true
+    },
+    {
+        "content": "\u0105\u0119\u015b\u0107\u017a\u00f3\u0144\u0142",
+        "done": true
+    }
 ]

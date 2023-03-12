@@ -4,12 +4,20 @@ import json
 class Importer:
 
     def __init__(self):
-        pass
+        self.taski = None
 
     def read_tasks(self):
         # TODO odczytaj plik i zdekoduj treść tutaj
-        pass
+        try:
+            with open('taski.json', encoding="utf-8") as json_file:
+                data = json.load(json_file)
+                self.taski = data
+        except FileNotFoundError:
+            self.taski = []
 
     def get_tasks(self):
         # TODO zwróć zdekodowane taski tutaj
-        pass
+        if self.taski is None:
+            self.read_tasks()
+        
+        return self.taski

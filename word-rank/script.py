@@ -20,6 +20,7 @@ sentences = [
     'Swoją drogą to gdzie rośnie pieprz?',
     'Mam nadzieję, że poradzisz sobie z tym zadaniem bez problemu',
     'Nie powinno sprawić żadnego problemu, bo Google jest dozwolony',
+    "Anime-koneser"
 ]
 
 # Example result:
@@ -30,15 +31,14 @@ sentences = [
 
 # Good luck! You can write all the code in this file.
 import re
-import operator
 
 rank = {}
 for text in sentences:
     text = str(text)
+    text = re.sub('\W+',' ', text).lower()
     words = text.split(" ")
 
     for word in words:
-        word = re.sub('\W+',' ', word).lower()
         if len(word)>0:
             if not word in rank.keys():
                 rank[word] = 0;
@@ -46,6 +46,6 @@ for text in sentences:
             rank[word]+=1
             
 rank = sorted(rank.items(),key = lambda kv: -kv[1])
-# print(rank)
+
 for i in range(3):
     print(f"{i+1}. \"{rank[i][0]}\" - {rank[i][1]}")
