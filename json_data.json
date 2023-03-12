@@ -1,0 +1,10 @@
+{
+    "data": [
+        {
+            "base_currency": "usd",
+            "target_currency": "EUR",
+            "date_fetched": "2023-03-12",
+            "ratio": 0.938696
+        }
+    ]
+}

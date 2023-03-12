@@ -1,0 +1,46 @@
+{
+    "entries": [
+        {
+            "base_currency": "USD",
+            "target_currency": "EUR",
+            "date_fetched": "2023-03-11",
+            "ratio": 0.938696
+        },
+        {
+            "base_currency": "USD",
+            "target_currency": "EUR",
+            "date_fetched": "2023-03-12",
+            "ratio": 0.938696
+        },
+        {
+            "base_currency": "PLN",
+            "target_currency": "EUR",
+            "date_fetched": "2023-03-12",
+            "ratio": 0.213685
+        },
+        {
+            "base_currency": "PLN",
+            "target_currency": "USD",
+            "date_fetched": "2023-03-12",
+            "ratio": 0.227641
+        },
+        {
+            "base_currency": "PLN",
+            "target_currency": "usd",
+            "date_fetched": "2023-03-12",
+            "ratio": 0.227641
+        },
+        {
+            "base_currency": "USD",
+            "target_currency": "PLN",
+            "date_fetched": "2023-03-12",
+            "ratio": 4.39289
+        },
+        {
+            "base_currency": "USD",
+            "target_currency": "MARK",
+            "date_fetched": "2023-03-12",
+            "ratio": null
+        }
+    ]
+}
